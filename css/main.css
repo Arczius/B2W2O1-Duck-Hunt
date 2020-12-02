@@ -1,0 +1,6 @@
+*:hover{
+	cursor: crosshair;
+}
+body{
+	background-image: url(../images/stage.png);
+}
