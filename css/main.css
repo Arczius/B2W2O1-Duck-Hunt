@@ -2,12 +2,13 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
+	font-family: 'JetBrains Mono', monospace;
 }
 *:hover{
 	cursor: crosshair;
 }
 body{
-	font-family: 'JetBrains Mono', monospace;
+
 }
 .scoreText{
 	margin-left: 580px;
