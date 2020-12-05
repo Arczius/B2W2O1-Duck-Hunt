@@ -10,6 +10,7 @@ var direction = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"];
 function hit(){
 	score++;
 	console.log("you have " + score + " score");
+	document.getElementById('score').innerHTML ="<h2>" + score + "</h2>";
 }
 
 function miss(){
