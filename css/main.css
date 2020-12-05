@@ -1,6 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
 *:hover{
 	cursor: crosshair;
 }
 body{
-	background-image: url(../images/stage.png);
+	font-family: 'JetBrains Mono', monospace;
+}
+.scoreText{
+	margin-left: 580px;
 }
