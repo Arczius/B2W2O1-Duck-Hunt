@@ -3,13 +3,17 @@
 <head>
 	<title>Duckhunt</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"> 
 </head>
 <body>
 	<script src="js/main.js"></script>
-	<div>
-		<h2 id="score"></h2>
-	</div>
+
+	<img src="images/stage.png" id="background" onclick="miss();">
 	<img src="images/duck.gif" id="ducky" onclick="hit();">
+	<div>
+		<h2 id="score" class="scoreText">1234567890</h2>
+	</div>
 
 </body>
 </html>
